@@ -1,0 +1,30 @@
+.sauvc {
+  width: 150px;
+  height: 60px;
+  background-color: #F15E50;
+  border-radius: 40px;
+  position: relative;
+  border: 3px solid #1C455D;
+}
+
+.a, .u, .v {
+  font-size: 4em;
+  position: absolute;
+  font-family: 'Righteous', cursive;
+  color: #1C455D;
+}
+
+.a {
+  top: -15px;
+  left: 15px;
+}
+
+.u {
+  top: -40px;
+  left: 55px;
+}
+
+.v {
+  top: 15px;
+  right: 25px;
+}
