@@ -1,10 +1,12 @@
 .sauvc {
-  width: 150px;
+  width: 140px;
   height: 60px;
   background-color: #F15E50;
   border-radius: 40px;
   position: relative;
   border: 3px solid #1C455D;
+  animation: floating-updown 3s ease-in-out infinite,
+    floating-rotate 3s ease-in-out infinite;
 }
 
 .a, .u, .v {
@@ -26,5 +28,65 @@
 
 .v {
   top: 15px;
-  right: 25px;
+  right: 12px;
+}
+
+@-webkit-keyframes floating-updown {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+@keyframes floating-updown {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+
+@-webkit-keyframes floating-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  75% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes floating-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  75% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
