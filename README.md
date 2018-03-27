@@ -1,14 +1,14 @@
-# logo
+# Mascot
 
-SAUVC Logo
+SAUVC Mascot
 
-## Complete Logo
+## Complete Mascot
 
-![](PNG/logo-sauvc.png)
+![](PNG/mascot-sauvc.png)
 
-## Icon
+## Tiny Mascot
 
-![](PNG/icon-sauvc.png)
+![](PNG/tiny-mascot-sauvc.png)
 
 ## License
 
